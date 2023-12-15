@@ -1,0 +1,195 @@
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("../image/ball.jpg");
+    font-family: sans-serif;
+}
+.dinner-form{
+    width: 550px;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    margin: 60px auto;
+}
+.dinner-form-text{
+    width: 95%;
+    text-align: center;
+    padding-top: 40px; 
+    border-bottom: 1px dotted #f5d72c ;
+    margin: 0px auto;
+}
+.dinner-form-text h1{
+    margin-bottom: 20px;
+    color: yellow;
+    font-weight: 100;
+}
+.dinner-form-text p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.dinner-form-bottom{
+    padding: 20px 50px;
+}
+.dinner-form-bottom input:focus{
+    outline: 1px solid #f5d72c;
+}
+.dinner-form-name span{
+    color: red;
+}
+.dinner-form-name label{
+    color: yellow;
+    margin-right: 60px;
+    font-size: 12px;
+}
+.dinner-form-name input{
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid #f5d72c;
+    color: white;
+    padding:2px 5px;
+    margin-bottom: 3px;
+}
+.dinner-form-first{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.dinner-form-first span{
+    color:#f5d72c ;
+    font-size: 12px;
+}
+.dinner-form-email{
+    margin-bottom: 20px;
+}
+.dinner-form-email span{
+    color: red;
+}
+.dinner-form-email label{
+    color: yellow;
+    font-size: 12px;
+    margin-right:60px ;
+}
+.dinner-form-email input{
+    width: 230px;
+    background-color: transparent;
+    border: 1px solid #f5d72c;
+    color: white;
+    padding:2px 5px;
+}
+.dinner-form-phone span{
+    color: white;
+}
+.dinner-form-phone span:first-child{
+    color: red;
+}
+.dinner-form-phone label{
+    color: yellow;
+    font-size: 12px;
+    margin-right:52px ;
+}
+.dinner-form-phone input{
+    width: 57px;
+    background-color: transparent;
+    border: 1px solid #f5d72c;
+    color: white;
+    padding:2px 5px;
+    margin: 2px 5px;
+    
+}
+.dinner-form-phone-count{
+    width: 200px;
+    margin: 0px 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.dinner-form-phone-count span{
+    color:#f5d72c ;
+    font-size: 12px;
+}
+.dinner-form-terms{
+    margin-bottom: 20px;
+}
+.dinner-form-terms label{
+    color:#f5d72c ;
+    font-size: 12px;
+}
+.dinner-form-terms label:first-child{
+    color: yellow;
+    font-size: 12px;
+    margin-right:65px ;
+}
+.dinner-form-terms span{
+    color: red;
+}
+.dinner-form-quantity{
+    margin-bottom: 20px;
+}
+.dinner-form-quantity label{
+    color:#f5d72c ;
+    font-size: 12px;
+}
+.dinner-form-quantity label:first-child{
+    color:yellow ;
+    font-size: 12px;
+    margin-right:53px ;
+}
+.dinner-form-quantity span{
+    color: red;
+}
+.dinner-form-drop-down select{
+    margin-left: 108px;
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #f5d72c;
+    margin-bottom: 30px;
+}
+.dinner-form-drop-down select:focus{
+    outline: 1px solid #f5d72c;
+}
+.dinner-form-drop-down option{
+    color: black;
+}
+.dinner-form-price{
+    width: 40%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid white;
+    padding: 5px 3px;
+    color: white;
+}
+.dinner-form-count{
+    width: 40%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 3px;
+    color: white;
+    font-size: 12px;
+}
+.dinner-form-submit{
+    width: 100%;
+}
+.dinner-form-submit input{
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 35px;
+    margin:30px 150px;
+    border: 1px solid red;
+}
+.dinner-form-submit input:hover{
+    cursor: pointer;
+}
+.dinner-form-submit input:focus{
+    outline:none;
+}
